@@ -41,7 +41,7 @@ li {
   margin-right: 250px;
   margin-bottom: 150px;
   width: 1500px;
-  height: 850px;
+  height: 800px;
   border-radius: 0 0 1000px 1000px;
 }
 
@@ -119,10 +119,21 @@ li {
   font-weight: bold;
   border: #03C04A;
 }
-@media only screen and (max-width : 600px) {
-  .container{
-    height: 820px;
+@media only screen and (max-width : 700px){
+  .container1{
+    height: 880px;
     width: 100%;
+  }
+  .navbar {
+    position: absolute;
+    margin-bottom: 850px;
+    height: 80px;
+    width: 470px;
+  }
+  .image img {
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
   }
   .circle1{
     background: linear-gradient(to bottom,#FFD300,#F97272);
@@ -173,7 +184,7 @@ li {
     color: white;
     background-color: #03C04A;
     border-radius: 100px  100px  100px 100px;
-    left: 150px;
+    left: 100px;
     width: 250px;
     height: 25px;
     font-size: 15px;
