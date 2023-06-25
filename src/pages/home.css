@@ -125,7 +125,7 @@ li {
 }
 @media screen and (max-width : 600px) {
   .container{
-    height: 820px;
+    height: 600px;
     width: 100%;
   }
   .image img {
@@ -161,12 +161,10 @@ li {
     border-radius: 1000px 1000px 0 0px;
   }
   .music{
-    font-size: 40px;
-    left: 50px;
+    font-size: 50px;
   }
   .mill{
     font-size: 18px;
-    left:50px;
     
   }
   .sub input{
