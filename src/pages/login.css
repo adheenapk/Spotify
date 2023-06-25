@@ -67,28 +67,3 @@ a{
     text-decoration: none;
     color: #008ECC;
 }
-@media only screen and (max-width : 1000px){
-  .container{
-    height: 880px;
-    width: 100%;
-  }
-  .check{
-    position: absolute;
-    left: -200px;
-    transform: scale(0.4);
-  }
-  .check label{
-    font-size: 40px;
-    color: rgb(48, 47, 47);
-    position: absolute;
-    font-family: serif;
-    left: 280px;
-    width: 500px;
-}
-.btn input{
-    margin-top: 80px;
-    color: white;
-    background-color: #008ECC;
-    font-size: large;
-}   
-}
