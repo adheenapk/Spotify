@@ -67,7 +67,7 @@ a{
     text-decoration: none;
     color: #008ECC;
 }
-@media only screen and (max-width : 700px){
+@media only screen and (max-width : 1000px){
   .container{
     height: 880px;
     width: 100%;
