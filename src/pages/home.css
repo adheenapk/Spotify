@@ -119,3 +119,64 @@ li {
   font-weight: bold;
   border: #03C04A;
 }
+@media only screen and (max-width : 600px) {
+  .container{
+    height: 820px;
+    width: 100%;
+  }
+  .circle1{
+    background: linear-gradient(to bottom,#FFD300,#F97272);
+    margin-left: 10px;
+    margin-right: 130px;
+    width: 450px;
+    height: 250px;
+    border-radius: 0 0 1000px 1000px;
+  }
+  .circle2{
+    background: linear-gradient(to top,#F97272,#FFAC49);
+    margin-right: 50px;
+    height: 200px;
+    width: 400px;
+    border-radius: 900px 1000px 0 0px;
+  }
+  .circle3{
+    background: linear-gradient(to top,#F97272,#FFAC49);
+    margin-left: 50px;
+    height: 200px;
+    width: 255px;
+    border-radius: 900px 1000px 0 0px;
+  }
+  .circle4{
+    background: linear-gradient(to top,#F97272,#FFAC49);
+    margin-left: 50px;
+    height: 100px;
+    width: 200px;
+    border-radius: 1000px 1000px 0 0px;
+  }
+  .music{
+    font-size: 35px;
+    left: 100px;
+  }
+  .mill{
+    color: whitesmoke;
+    top: 450px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .sub input{
+    color: white;
+    background-color: #03C04A;
+    border-radius: 100px  100px  100px 100px;
+    left: 150px;
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    border: #03C04A;
+  }
+}
