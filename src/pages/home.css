@@ -1,0 +1,121 @@
+.container1 {
+  background: linear-gradient(to bottom, #ff5a4d, #FEBA4F);
+  width: 100%;
+  height: 930px;
+}
+
+.navbar {
+  position: absolute;
+  margin-bottom: 850px;
+  height: 80px;
+  width: 1833px;
+  background: black;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image img {
+  width: 150px;
+  height: 50px;
+  margin-left: 150px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  margin-right: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.circle1 {
+  background: linear-gradient(to bottom, #FFD300,#ff5a4d);
+  margin-left: 80px;
+  margin-right: 250px;
+  margin-bottom: 150px;
+  width: 1500px;
+  height: 850px;
+  border-radius: 0 0 1000px 1000px;
+}
+
+.circle2 {
+  background: linear-gradient(to top, #ff4637, #FFAC49);
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin-right: 50px;
+  height: 400px;
+  width: 800px;
+  border-radius: 900px 1000px 0 0px;
+}
+
+.circle3 {
+  background: linear-gradient(to top,#ff4637, #FFAC49);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin-left: 1500px;
+  height: 300px;
+  width: 550px;
+  border-radius: 900px 1000px 0 0px;
+}
+
+.circle4 {
+  background: linear-gradient(to top, #ff5a4d, #FFAC49);
+  position: absolute;
+  bottom: 10px;
+  margin-left: 550px;
+  height: 200px;
+  width: 400px;
+  border-radius: 1000px 1000px 0 0px;
+}
+
+.music {
+  color: whitesmoke;
+  text-align: center;
+  position: absolute;
+  top: 350px;
+  left: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 90px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mill {
+  color: whitesmoke;
+  position: absolute;
+  top: 450px;
+  left: 38%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub input {
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: 36%;
+  background-color: #03C04A;
+  border-radius: 100px 100px 100px 100px;
+  width: 355px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  border: #03C04A;
+}
