@@ -137,22 +137,22 @@ li {
   .circle2{
     background: linear-gradient(to top,#F97272,#FFAC49);
     margin-right: 50px;
-    height: 200px;
-    width: 400px;
+    width: 250px;
+    height: 150px;
     border-radius: 900px 1000px 0 0px;
   }
   .circle3{
     background: linear-gradient(to top,#F97272,#FFAC49);
     margin-left: 50px;
-    height: 200px;
-    width: 255px;
+    width: 250px;
+    height: 150px;
     border-radius: 900px 1000px 0 0px;
   }
   .circle4{
     background: linear-gradient(to top,#F97272,#FFAC49);
     margin-left: 50px;
-    height: 100px;
-    width: 200px;
+    width: 250px;
+    height: 150px;
     border-radius: 1000px 1000px 0 0px;
   }
   .music{
