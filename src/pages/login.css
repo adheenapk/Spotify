@@ -79,7 +79,7 @@ a{
   }
   .check{
     position: absolute;
-    left:-10px;
+    left:-300px;
     transform: scale(0.4);
   }
   .check label{
