@@ -1,3 +1,15 @@
+.navbar {
+  position: absolute;
+  margin-bottom: 850px;
+  height: 80px;
+  width: 1833px;
+  background: black;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .container1 {
   background: linear-gradient(to bottom, #ff5a4d, #FEBA4F);
   width: 100%;
@@ -36,7 +48,7 @@ li {
 }
 
 .circle1 {
-  background: linear-gradient(to bottom, #FFD300,#ff5a4d);
+  background: linear-gradient(to bottom, #FFD300, #ff5a4d);
   margin-left: 80px;
   margin-right: 250px;
   margin-bottom: 150px;
@@ -57,7 +69,7 @@ li {
 }
 
 .circle3 {
-  background: linear-gradient(to top,#ff4637, #FFAC49);
+  background: linear-gradient(to top, #ff4637, #FFAC49);
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -119,56 +131,58 @@ li {
   font-weight: bold;
   border: #03C04A;
 }
-@media only screen and (max-width : 700px){
-  .container1{
+
+@media only screen and (max-width : 700px) {
+  .container1 {
     height: 880px;
     width: 100%;
   }
-  .navbar {
-    position: absolute;
-    margin-bottom: 850px;
-    height: 80px;
-    width: 470px;
-  }
+
   .image img {
     width: 150px;
     height: 50px;
     margin-left: 50px;
   }
-  .circle1{
-    background: linear-gradient(to bottom,#FFD300,#F97272);
+
+  .circle1 {
+    background: linear-gradient(to bottom, #FFD300, #F97272);
     margin-left: 10px;
     margin-right: 130px;
     width: 450px;
     height: 250px;
     border-radius: 0 0 1000px 1000px;
   }
-  .circle2{
-    background: linear-gradient(to top,#F97272,#FFAC49);
+
+  .circle2 {
+    background: linear-gradient(to top, #F97272, #FFAC49);
     margin-right: 50px;
     height: 200px;
     width: 400px;
     border-radius: 900px 1000px 0 0px;
   }
-  .circle3{
-    background: linear-gradient(to top,#F97272,#FFAC49);
+
+  .circle3 {
+    background: linear-gradient(to top, #F97272, #FFAC49);
     margin-left: 50px;
     height: 200px;
     width: 255px;
     border-radius: 900px 1000px 0 0px;
   }
-  .circle4{
-    background: linear-gradient(to top,#F97272,#FFAC49);
+
+  .circle4 {
+    background: linear-gradient(to top, #F97272, #FFAC49);
     margin-left: 50px;
     height: 100px;
     width: 200px;
     border-radius: 1000px 1000px 0 0px;
   }
-  .music{
+
+  .music {
     font-size: 35px;
     left: 100px;
   }
-  .mill{
+
+  .mill {
     color: whitesmoke;
     top: 450px;
     left: 100px;
@@ -180,10 +194,11 @@ li {
     justify-content: center;
     align-items: center;
   }
-  .sub input{
+
+  .sub input {
     color: white;
     background-color: #03C04A;
-    border-radius: 100px  100px  100px 100px;
+    border-radius: 100px 100px 100px 100px;
     left: 100px;
     width: 250px;
     height: 25px;
